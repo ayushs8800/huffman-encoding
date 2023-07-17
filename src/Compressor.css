@@ -1,0 +1,40 @@
+.compress {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 2rem;
+}
+
+.compress-btn {
+    background-color: #537FE7;
+    outline: none;
+    border: 1px solid #181823;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    width: 15rem;
+    padding: 10px 15px;
+    margin-top: 0.7rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    transition: 0.2s ease-in;
+}
+
+.compress-btn:hover {
+    font-size: 20px;
+}
+
+.display-data {
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.encoded-string {
+    word-wrap: break-word;
+    width: 330px;
+}
